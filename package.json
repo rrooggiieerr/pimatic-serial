@@ -1,0 +1,36 @@
+{
+  "name": "pimatic-serial",
+  "description": "Send commands to serial devices",
+  "author": "Rogier van Staveren <rogier@staveren.net>",
+  "main": "serial",
+  "files": [
+    "serial.coffee",
+    "README.md",
+    "serial-config-schema.coffee"
+  ],
+  "license": "GPL-2.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rrooggiieerr/pimatic-serial",
+  "configSchema": "serial-config-schema.coffee",
+  "dependencies": {
+    "serialport": ">=6.0.0",
+    "lodash": "^3.10.1"
+  },
+  "peerDependencies": {
+    "pimatic": ">=0.8.0 <1.0.0"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrooggiieerr/pimatic-serial.git"
+  },
+  "keywords": [
+    "pimatic"
+  ],
+  "bugs": {
+    "url": "https://github.com/rrooggiieerr/pimatic-serial/issues"
+  }
+}
