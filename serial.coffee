@@ -205,7 +205,7 @@ module.exports = (env) ->
   env.devices.SerialDevice = SerialDevice
 
   class SerialSwitch extends SerialDevice
-    _state:null
+    _state: null
 
     actions:
       sendCommand:
@@ -259,6 +259,7 @@ module.exports = (env) ->
 
     # Returns a promise that is fulfilled when done.
     changeStateTo: (state) ->
+      assert state is on or state is off
       switch state
         when on
           @sendCommand @onCommand

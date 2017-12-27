@@ -6,10 +6,12 @@
   "files": [
     "serial.coffee",
     "README.md",
-    "serial-config-schema.coffee"
+    "serial-config-schema.coffee",
+    "device-config-schema.coffee",
+    "LICENCE"
   ],
   "license": "GPL-2.0",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/rrooggiieerr/pimatic-serial",
   "configSchema": "serial-config-schema.coffee",
   "dependencies": {
